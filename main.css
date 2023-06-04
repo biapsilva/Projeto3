@@ -2,7 +2,12 @@ body {
     font-family: roboto, sans-serif;
 }
 
-.navbar {
+header{
+    position: sticky;
+}
+
+.navbar,
+footer {
     background-color: #ffb28f;
 }
 
@@ -49,7 +54,14 @@ body {
     display: inline;
 }
 
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
 
+form {
+    max-width: 360px;
+}
 
 .social-links a {
     text-decoration: none;
