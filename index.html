@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café da Madame Puddifoot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Café da Madame Puddifoot</h1>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon text-colored text-colored"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-cafeteria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a cafeteria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-cafeteria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./Images/Slide/Slide1.jpg" alt="Bolo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./Images/Slide/Slide2.jpg" alt="Bolo de coração">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="Donuts">
+                        <img src="./Images/Slide/Slide3.jpg" alt="Café">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-colored text-colored"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-colored text-colored"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Images/Interior.jpg" class="d-block w-100 rounded" alt="Interior da cafeteria">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored text-colored">a cafeteria</span></h2>
+                            <p>Bem-vindo ou bem-vinda ao Café da Madame Puddifoot!</p>
+                            <p>Localizado na charmosa vila de Hogsmeade, nosso café é um refúgio romântico e acolhedor para bruxos e bruxas de todas as idades. Com uma atmosfera encantadora e decoração delicada, oferecemos um ambiente único que cativa os corações dos apaixonados.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored text-colored">o espaço</span></h3>
+                            <p>Desde a sua fundação, há décadas atrás, o Café da Madame Puddifoot se tornou um destino icônico para casais em busca de momentos especiais. Nossas mesas cobertas por toalhas floridas e cortinas de renda rosa criam uma atmosfera encantadora e íntima, perfeita para desfrutar de conversas sinceras, risos e memórias compartilhadas.</p>
+                            <ul>
+                                <li>Espaço íntimo com capacidade para 20 pessoas;</li>
+                                <li>Espaço bem romântico;</li>
+                                <li>Espaço para amigos e grupos que desejam desfrutar de uma experiência acolhedora.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./Images/Eventos/Aniversario.jpg" alt="Bolo de aniversário" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-balloon-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>Celebre o seu aniversário de maneira mágica no Café da Madame Puddifoot! Imagine-se imerso em uma atmosfera romântica, com cortinas de renda rosa, mesas adornadas com toalhas floridas e cadeiras confortáveis. Nossa encantadora cafeteria em Hogsmeade é o cenário perfeito para uma festa de aniversário verdadeiramente especial. Oferecemos um ambiente acolhedor e exclusivo, onde você e seus convidados podem desfrutar de deliciosas bebidas quentes, como café, chá e poções encantadas, acompanhadas de quitutes saborosos. Nossa equipe dedicada estará à disposição para tornar o seu aniversário uma experiência inesquecível, cuidando de todos os detalhes para garantir que você tenha um momento mágico ao lado de seus amigos e entes queridos. Celebre o seu dia especial no Café da Madame Puddifoot e desfrute de uma festa encantadora que ficará na memória por anos a fio.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./Images/Eventos/Casamento.jpg" alt="Recepção de casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>Celebre o amor em uma atmosfera mágica no Café da Madame Puddifoot! Nossa encantadora cafeteria em Hogsmeade é o local perfeito para realizar a sua festa de casamento dos sonhos. Com cortinas de renda rosa, mesas delicadamente decoradas e um ambiente acolhedor, criamos um cenário romântico e íntimo para o seu grande dia. Nossa equipe dedicada cuidará de todos os detalhes, desde a decoração encantadora até um menu personalizado com deliciosas opções gastronômicas. Desfrute de bebidas quentes, como café e chás especiais, enquanto celebra sua união ao lado de seus entes queridos. Acreditamos que cada casamento é único, assim como cada história de amor, e estamos comprometidos em tornar o seu dia especial absolutamente memorável. No Café da Madame Puddifoot, o seu casamento será envolto em magia e romance, criando lembranças que durarão uma vida inteira.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./Images/Eventos/DiaDosNamorados.jpg" alt="Lembrança dia dos namorados" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-chat-square-heart-fill"></i>
+                            Dia dos namorados
+                        </h3>
+                        <p>Neste dia especial, desfrute de momentos inesquecíveis com seu amado(a) enquanto compartilham uma seleção de bebidas quentes, como café expresso, chás aromáticos e deliciosas poções encantadas. Para complementar a experiência, oferecemos uma variedade de doces e quitutes, perfeitos para serem saboreados juntos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Cafés</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                            </nav>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Café/Cafe1.jpg" alt="Café">
+                                        <h5 class="text-colored fw-bold mt-2">Café com leite</h5>
+                                        <p>Deliciosa combinação de café quente e leite cremoso, criando uma bebida reconfortante e cheia de sabor.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Café/Cafe2.jpg" alt="macchiato">
+                                        <h5 class="text-colored fw-bold mt-2">Expresso macchiato</h5>
+                                        <p>Com sua base de café expresso intenso e uma pequena quantidade de leite vaporizado, essa bebida combina força e suavidade em uma única xícara.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Café/Cafe3.jpg" alt="Chocolate quente">
+                                        <h5 class="text-colored fw-bold mt-2">Chocolate quente</h5>
+                                        <p>O chocolate quente é uma deliciosa e reconfortante bebida que traz consigo a combinação perfeita de cacau rico, leite cremoso e um toque de doçura.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Café/Cafe4.jpg" alt="Xicara de coração">
+                                        <h5 class="text-colored fw-bold mt-2">Capuccino</h5>
+                                        <p>O Cappuccino é uma bebida clássica e reconfortante que combina café expresso, leite vaporizado e uma camada de espuma de leite. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Café/Cafe5.jpg" alt="Duas xicaras">
+                                        <h5 class="text-colored fw-bold mt-2">Expresso do amor</h5>
+                                        <p>O expresso do amor é uma criação encantadora que combina a intensidade do café com um toque de magia que desperta sentimentos amorosos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Café/Cafe6.jpg" alt="Ristreto">
+                                        <h5 class="text-colored fw-bold mt-2">Ristreto</h5>
+                                        <p>é uma criação encantadora que combina a intensidade do café com um toque de magia que desperta sentimentos amorosos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Bebidas Alcólicas/CafeAlcolico.jpg" alt="Café">
+                                        <h5 class="text-colored fw-bold mt-2">Café alcólico</h5>
+                                        <p>Deliciosa combinação de café, gin e um licor adocicado</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Bebidas Alcólicas/CervejaAmanteigada.jpg" alt="Cerveja amanteigada">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja amanteigada com álcool</h5>
+                                        <p>A base da Cerveja Amanteigada é uma cerveja ale, que pode variar de acordo com a preferência do produtor. Essa cerveja é cuidadosamente misturada com ingredientes como manteiga, açúcar mascavo e especiarias, resultando em um sabor rico e caramelizado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Entrada/EntradaCardapio.jpg" alt="Café">
+                                        <h5 class="text-colored fw-bold mt-2">Quiche de queijo</h5>
+                                        <p>Crocante quiche ao queijo de sua escolha</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Entrada/entrada2.jpg" alt="escondidinho">
+                                        <h5 class="text-colored fw-bold mt-2">Escondidinho de camarão</h5>
+                                        <p>Clássica e espetacular escondidnho de camarão</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Entrada/entrada4.jpeg" alt="Camarão">
+                                        <h5 class="text-colored fw-bold mt-2">Camarão empanado</h5>
+                                        <p>Seguindos os clássicos da cozinha, camaroes empanados dão um sabor delicioso a sua refeição</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Entrada/entrada3.jpg" alt="Torradas">
+                                        <h5 class="text-colored fw-bold mt-2">Torradas temperadas</h5>
+                                        <p>As torradas temperadas tem um segredo de familia jamais revelado porém bastante requisitado pelos visitantes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal1.jpg" alt="Tortilete">
+                                        <h5 class="text-colored fw-bold mt-2">Tortilete</h5>
+                                        <p>Deliciosa massa com molho e diversos recheios</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal2.jpg" alt="Sopa">
+                                        <h5 class="text-colored fw-bold mt-2">Sopa</h5>
+                                        <p>Para alguns sopa não é janta mas aqui é sim! Jamais duvide do poder dessa maravilhosa sopa</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal3.jpg" alt="Risoto">
+                                        <h5 class="text-colored fw-bold mt-2">Risoto</h5>
+                                        <p>Risoto ou arroz gourmet ao molho de ervas mágicas</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal4.jpg" alt="Picadinho">
+                                        <h5 class="text-colored fw-bold mt-2">Picadinho</h5>
+                                        <p>Picadinho com ervas e temperos que aguçam qualquer paladar</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal5.jpg" alt="Empanada">
+                                        <h5 class="text-colored fw-bold mt-2">Empanadas</h5>
+                                        <p>Essas deliciosas empanadas mágicas tem um recheio misterioso e sabor diferenciado a cada um que consome</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Prato Principal/PratoPrincipal6.jpg" alt="Hamburguer">
+                                        <h5 class="text-colored fw-bold mt-2">Mini hamburguer</h5>
+                                        <p>Pequeno no tamaho mas grande no sabor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Images/Cardapio/Sobremesa/Macarron.jpg" alt="Macarron">
+                                        <h5 class="text-colored fw-bold mt-2">Macarron</h5>
+                                        <p>Esses macarron tem um sabor diferente a cada mordida</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bolck w-100" src="./Images/Cardapio/Sobremesa/Sobremesa.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Esse poderoso bolo tem uma leve pitada de poção do amor em seus ingredientes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcinal)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar coruja eletrônica</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua do Barulho, nº 13, Hogsmeade. Londres.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
